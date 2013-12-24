@@ -5,7 +5,6 @@ all: install build test start
 
 clean:
 	rm -rf lib/*
-	rm -rf assets/scripts/app/*
 
 init:
 	if [ -e npm-shrinkwrap.json ]; then rm npm-shrinkwrap.json; fi
