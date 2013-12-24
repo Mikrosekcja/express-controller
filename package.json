@@ -1,0 +1,25 @@
+{
+  "name": "express-controller",
+  "version": "0.0.0",
+  "description": "Yet another approach to MVC for Express",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "MVC",
+    "Express",
+    "Controller"
+  ],
+  "author": "Tadeusz Łazurski (lazurski.pl)",
+  "license": "GPL 3",
+  "dependencies": {
+    "path": "~0.4.9",
+    "debug": "~0.7.4",
+    "lodash": "~2.4.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.16.2",
+    "coffee-script": "~1.6.3"
+  }
+}
