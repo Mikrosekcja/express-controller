@@ -10,7 +10,7 @@
   "scripts": {
     "test": "mocha",
     "prepublish": "./node_modules/.bin/coffee -cm -o lib src",
-    "install": "make build"
+    "install": "make install"
   },
   "keywords": [
     "MVC",

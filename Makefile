@@ -10,6 +10,8 @@ init:
 	if [ -e npm-shrinkwrap.json ]; then rm npm-shrinkwrap.json; fi
 	npm install
 
+install: clean
+	./node_modules/.bin/coffee -cm -o lib src	
 
 build: clean init # browserify
 	./node_modules/.bin/coffee -cm -o lib src	
