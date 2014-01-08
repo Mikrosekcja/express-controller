@@ -1,6 +1,6 @@
 {
   "name": "express-controller",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Yet another approach to MVC for Express",
   "main": "lib/index.js",
   "repository": {
