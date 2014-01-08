@@ -11,7 +11,8 @@ init:
 	npm install
 
 install: clean
-	./node_modules/.bin/coffee -cm -o lib src	
+	hash coffee || { echo "Coffee not installed globally. I need it to compile."; exit 1; }
+	coffee -cm -o lib src	
 
 build: clean init # browserify
 	./node_modules/.bin/coffee -cm -o lib src	
