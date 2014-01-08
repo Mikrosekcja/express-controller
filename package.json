@@ -9,7 +9,8 @@
   },
   "scripts": {
     "test": "mocha",
-    "prepublish": "./node_modules/.bin/coffee -cm -o lib src"
+    "prepublish": "./node_modules/.bin/coffee -cm -o lib src",
+    "install": "echo EXCTRL ISTALLED"
   },
   "keywords": [
     "MVC",
