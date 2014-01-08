@@ -3,6 +3,10 @@
   "version": "0.1.1",
   "description": "Yet another approach to MVC for Express",
   "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mikrosekcja/express-controller.git"
+  },
   "scripts": {
     "test": "mocha",
     "prepublish": "./node_modules/.bin/coffee -cm -o lib src"
